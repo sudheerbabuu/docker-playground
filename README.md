@@ -40,7 +40,7 @@
 
 This repository is a collection of Docker Compose files for tech stack samples, 
 including frameworks, blog platforms, CMS, e-commerce, headless CMS, and 
-"Hello, World!" examples for most common programming languages. The samples 
+"Hello, World!" are examples of the most common programming languages. The samples 
 offer a simple approach to setting up their respective tech stacks for a local 
 environment.
 
@@ -78,7 +78,7 @@ Linux and Windows.
 $ git clone git@github.com:luisaveiro/playground.git --branch main --single-branch
 ```
 
-All ***Playground*** samples can be found in `samples` directory.
+All ***Playground*** samples can be found in the `samples` directory.
 
 ```bash
 # Navigate to the samples
@@ -94,7 +94,7 @@ files you would need to take to get started.
 #### 1. <ins>DotEnv</ins>
 
 You can override the variables in the Docker Compose file, e.g. container name, 
-network name and port mapping. All ***Playground*** samples include a DotEnv 
+network name, and port mapping. All ***Playground*** samples include a DotEnv 
 example file (`.env.example`) that you can copy to create your DotEnv file and 
 override the Docker Compose variables.
 
@@ -110,7 +110,7 @@ the Dockerfile.
 
 #### 3. <ins>Makefile</ins>
 
-The Makefile offers a developer-friendly approach to automate the set up of 
+The Makefile offers a developer-friendly approach to automating the set up of 
 ***Playground*** samples. Some tech stacks CLI tools have a setup command that 
 offers an initial starter app.
 
@@ -122,7 +122,7 @@ The Makefile will create and attach the `CODE_DIR` (default `code` directory)
 as a Docker volume. Your new ***Playground*** sample source code will be stored 
 in the `CODE_DIR`.
 
-In each ***Playground*** samples' Makefile I have included an example on how 
+In each ***Playground*** samples' Makefile, I have included an example of how 
 to execute the make command. You will need to execute the make command before 
 you can have the ***Playground*** sample set up and running in a Docker 
 container.
@@ -134,7 +134,7 @@ samples' services will run in separate Docker containers. ***Playground***
 sample source code will be stored in the `CODE_DIR` (default `code` directory) 
 as a Docker volume.
 
-***Playground*** samples that do not have have a Makefile will automatically 
+***Playground*** samples that do not have a Makefile will automatically 
 execute the setup command of their respective tech stacks.
 
 To start a ***Playground*** sample, you can run the following command:
@@ -149,7 +149,7 @@ $ docker compose up -d
 ## Samples
 
 There are currently **62** samples included in the ***Playground*** repository. 
-The ***Playground*** samples are categorised into one of the following tech 
+The ***Playground*** samples are categorized into one of the following techs 
 stacks:
 
 <details>
@@ -307,7 +307,7 @@ collection.
 
 **Q:** Are you able to provide "beginner" guides for each sample?  
 **A:** I will be providing additional readme files for each ***Playground*** 
-sample that will include how to get started and use the sample.
+the sample will include how to get started and use the sample.
 
 **Q:** Are you able to provide "How-to" guides to combine multiple samples?  
 **A:** Yes, I will be including additional guides to help developers that want 
@@ -328,7 +328,7 @@ aims to offer a simple approach to setting up databases for a local environment.
 offers a simple approach to having a Caddy Server as a local reverse proxy for 
 your Docker containers.
 
-[Programiz](https://www.programiz.com/) let's you learn to code in Python, 
+[Programiz](https://www.programiz.com/) lets you learn to code in Python, 
 C/C++, Java, and other popular programming languages with their 
 beginner-friendly tutorials and examples.
 
